@@ -9,7 +9,7 @@
     "build": "next build",
     "export": "next export",
     "heroku-postbuild": "next build",
-    "start": "npm start -p $PORT"
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "",
   "license": "ISC",
