@@ -1,0 +1,6 @@
+node_modules/
+.next/
+*.log
+ethereum/contracts/
+ethereum/compile.js
+ethereum/deploy.js
