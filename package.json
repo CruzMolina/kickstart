@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
     "export": "next export",
     "heroku-postbuild": "npm run build",
-    "start": "next start -p $PORT"
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "",
   "license": "ISC",
