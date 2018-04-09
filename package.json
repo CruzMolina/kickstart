@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dev": "node server.js",
+    "dev": "node server.js -p $PORT",
     "build": "next build",
     "export": "next export",
-    "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "next build",
     "start": "node server.js -p $PORT"
   },
   "author": "",
